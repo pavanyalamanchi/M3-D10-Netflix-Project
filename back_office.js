@@ -17,4 +17,8 @@ const netflixSubmit = async function(event) {
             "Content-Type": "application/json"
         }
     })
+    let alert = document.getElementsByClassName('alert1')[0]
+    alert.style.display = "block"
+        //alert.classList.add('alert-success')
+    alert.innerText = 'Successfully Created!'
 }

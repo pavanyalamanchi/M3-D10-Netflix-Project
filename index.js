@@ -33,5 +33,6 @@ const cardFetch = async function() {
         </div></a>`
         }
 
+
     }
 }
