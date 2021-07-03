@@ -26,7 +26,7 @@ const cardFetch = async function() {
         div.classList.add('row', 'mx-n1', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'row-cols-xl-5')
         cardSection.appendChild(div)
         for (let j = 0; j < resp.length; j++) {
-            div.innerHTML += `<a href='edit_office.html?cat=${resp[j].category}&loop=${j}&id=${resp[j]._id}'><div class=" col px-1 zoom">
+            div.innerHTML += `<a href='edit_office.html?cat=${resp[j].category}&loop=${j}&id=${resp[j]._id}'><div class="mt-3 col px-1 zoom">
             <div class="position-relative ">
                 <img src="${resp[j].imageUrl} " class="img-fluid rounded mb-2 mb-sm-0 w-100 " alt=" " />
             </div>

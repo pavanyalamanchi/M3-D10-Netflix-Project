@@ -13,3 +13,25 @@ svg {
 nav {
     background-color: rgb(18, 18, 18);
 }
+
+.zoom {
+    transition: transform .4s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    z-index: 99
+}
+
+.footer {
+    transform: scale(1.7);
+    margin-left: 1.7rem!important;
+}
+
+.footer-row {
+    justify-content: space-between;
+}
+
+li {
+    width: 13rem;
+}
