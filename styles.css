@@ -32,6 +32,6 @@ nav {
     justify-content: space-between;
 }
 
-li {
+.footer-li {
     width: 13rem;
 }
